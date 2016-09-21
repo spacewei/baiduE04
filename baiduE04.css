@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+.con-main{
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	/*margin: 0px auto;*/
+	position: absolute;
+	/*绝对定位居中！负边距(div的一半!)定位到div中心,在top/left:50%!*/
+	top:50%;
+	margin-top:-100px;
+	left: 50%;
+	margin-left: -200px;
+}
+.top-left-con{
+	width:50px;
+	height:50px;
+	background-color: #fc0;
+	position: absolute;
+	top:0px;
+	left:0px;
+	border-radius:0 0 50px 0;
+}
+.bottom-right-con{
+	width:50px;
+	height:50px;
+	background-color: #fc0;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	border-radius:50px 0 0 0;
+}
